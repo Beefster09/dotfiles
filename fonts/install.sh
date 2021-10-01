@@ -8,8 +8,8 @@ install() {
 if [ "$(uname -s)" = "Darwin" ]; then
 	if command -v brew >/dev/null 2>&1; then
 		brew tap homebrew/cask-fonts
-		brew cask install font-source-code-pro
-		brew cask install font-fira-code
+		brew install --cask font-source-code-pro
+		brew install --cask font-fira-code
 	else
 		install ~/Library/Fonts
 	fi
