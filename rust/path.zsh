@@ -1,2 +1,2 @@
 #!/bin/sh
-export PATH="$PATH:/Users/christianvozar/.cargo/bin"
+export PATH="$PATH:$HOME/.cargo/bin"
